@@ -2,7 +2,7 @@
   margin-left: 10px;
   background-color: lightgray;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .singleChat__message {
@@ -21,6 +21,29 @@
   margin-left: auto;
   background-color: #29b3cd;
   padding: 15px;
-  border-radius: 25px;
+  border-radius: 20px;
   color: white;
+}
+
+.singleChat__input > form {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.singleChat__inputField {
+  flex: 1;
+  padding: 15px;
+  border: none;
+}
+
+.singleChat__inputButton {
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    font-weight: bolder;
+    color: #fe3d71;
 }
