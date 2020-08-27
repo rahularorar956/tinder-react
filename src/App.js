@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import TinderCards from "./TinderCards";
+import SingleChat from "./SingleChat";
 import SwipeButtons from "./SwipeButtons";
 import Chats from "./Chats";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -11,7 +12,12 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/chats">
+          <Route path="/chat/:person">
+            <Header backButton="/chat" />
+            <SingleChat />
+          </Route>
+
+          <Route path="/chat">
             <Header backButton="/" />
             <Chats />
           </Route>
@@ -23,10 +29,6 @@ function App() {
             <SwipeButtons />
           </Route>
         </Switch>
-
-        {/* Chat Screen */}
-
-        {/* Individual chat screen */}
       </Router>
     </div>
   );

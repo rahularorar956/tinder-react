@@ -1,0 +1,26 @@
+.singleChat__text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.singleChat__message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.singleChat__timestamp {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.singleChat__textUser {
+  margin-left: auto;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}
