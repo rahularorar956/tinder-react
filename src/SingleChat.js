@@ -6,16 +6,16 @@ const SingleChat = () => {
   const [messages, setMessages] = useState([
     {
       name: "Ellen",
-      image: "...",
+      image: "https://images.generated.photos/k1pVttVRoS3DiIXtduX2GSzMGnn1hao3-6BXh6Sp9ys/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NTc1MzYuanBn.jpg",
       message: "Whats up ?",
     },
     {
       name: "Ellen",
-      image: "...",
+      image: "https://images.generated.photos/k1pVttVRoS3DiIXtduX2GSzMGnn1hao3-6BXh6Sp9ys/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NTc1MzYuanBn.jpg",
       message: "How is it going",
     },
     {
-      message: "Whats up ?",
+      message: "Hey, How are you?",
     },
   ]);
 
